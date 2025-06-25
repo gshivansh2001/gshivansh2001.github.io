@@ -250,12 +250,6 @@ Social Responsibility
 ======
 * NGO Volunteer - Kartavya, IIT (ISM) Dhanbad: Volunteered to teach mathematics to class 9th and 10th children in Dhanbad to help them ace their board exams. (2019-2023)
 
-Exam Scores
-======
-* IIT JEE, Advanced (2019): AIR 7586, 95.3 Percentile among 1.9 Lakh candidates.
-* IIT JEE, Mains (2019): AIR 5497, 99.52 Percentile among 11. Lakh candidates.
-* CAT - 2023, 98.06 Percentile
-
 Selected Certifications:
 ======
 * Azure Fundamentals (AZ 900), Microsoft 2023
