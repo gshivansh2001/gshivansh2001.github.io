@@ -32,9 +32,9 @@ To learn more about my interests and recent explorations, please visit my [Resea
 
 <p><b>Looking Ahead:</b> I am looking out for PhD positions! Please feel free to reach out if you believe we could be a great team!</p>
 
-<h3 id="update">Update!</h3>
-
-- [01-01-2025] Attended and volunteered at <a href="https://connect.informs.org/iss/blogs/ramnath-chellappa/2024/09/16/code2024-25">CODE: Conference on the Digital Economy</a>, Indian School of Business, Varanasi.
+<h3 id="update">Updates!</h3>
+- [08-07-2025] Attending and volunteering for <a href="https://www.isb.edu/events/isb-poms-workshop-2025">ISB POMS Workshop 2025</a>, Indian School of Business, Hyderabad.
+- [01-01-2025] Attended and volunteered at <a href="https://connect.informs.org/iss/blogs/ramnath-chellappa/2024/09/16/code2024-25">CODE: Conference on the Digital Economy</a>, Varanasi.
 - [14-12-2024] Attended <a href="https://www.nber.org/conferences/information-and-competition-digital-economy-fall-2024">ISB-NBER Conference on Information and Competition in the Digital Economy</a>.
 - [02-12-2024] Joined the <a href="https://www.isb.edu/faculty-and-research/srini-raju-centre-for-it-and-the-networked-economy">SRITNE</a> team at ISB and started working as a pre-doctoral researcher in the Information Systems Department.
 
