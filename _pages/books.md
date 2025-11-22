@@ -1,8 +1,8 @@
 ---
 layout: book-shelf
-title: bookshelf
+title: Beyond Research
 permalink: /books/
-nav: false
+nav: true
 collection: books
 ---
 
