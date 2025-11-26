@@ -24,7 +24,7 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-<h3>About</h3>
+<h2>About</h2>
 
 Hi! I'm Shivansh, a Pre-Doctoral Research Associate at the Indian School of Business in the Information Systems group. I work with <a href="https://www.isb.edu/faculty-and-research/faculty-directory/vasundhara-sharma">Professor Vasundhara Sharma</a>, at <a href="https://www.isb.edu/faculty-and-research/srini-raju-centre-for-it-and-the-networked-economy">SRITNE</a> lab in the Information Systems Department. My work broadly lies at the intersection of digital platforms, human behavior, and algorithmic governance.
 
