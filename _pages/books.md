@@ -3,6 +3,7 @@ layout: book-shelf
 title: Beyond Research
 permalink: /books/
 nav: true
+nav_order: 4
 collection: books
 ---
 
