@@ -23,12 +23,12 @@
       institution: Indian School of Business, Hyderabad
       year: Dec'24 - Ongoing
       description:
-        - Department: Information Systems
-        - Advisor: "<a href='https://www.isb.edu/faculty-and-research/faculty-directory/vasundhara-sharma'>Dr. Vasundhara Sharma</a>"
+        - 'Department: Information Systems'
+        - 'Advisor: "<a href='https://www.isb.edu/faculty-and-research/faculty-directory/vasundhara-sharma'>Dr. Vasundhara Sharma</a>'
         - Research Focus: "Applying ML and data science to macroeconomic measures and public policy."
         - "Conducting a research project on the impact of social movements in the digital world."
         - "Working with Selenium, NLP, and LLMs for text analysis."
-        - Methodologies: "Econometric Analysis, Structural Modeling, Survey"
+        - 'Methodologies: "Econometric Analysis, Structural Modeling, Survey"'
 
     - title: Project Intern
       institution: Directorate General of Mine Safety (DGMS), Ministry of Labour & Employment
@@ -58,10 +58,10 @@
       institution: HCLTech
       year: Jul'23 - Nov'24
       description:
-        - Team: Oil & Gas Consulting
-        - Client: Chevron
-        - Manager: "<a href='https://www.linkedin.com/in/jaspreet-singh-86bb2319/'>Jaspreet Singh</a>"
-        - Product Owner: "<a href='https://www.linkedin.com/in/lshapirosf/'>Leonid Shapiro</a>"
+        - 'Team: Oil & Gas Consulting'
+        - 'Client: Chevron'
+        - 'Manager: "<a href='https://www.linkedin.com/in/jaspreet-singh-86bb2319/'>Jaspreet Singh</a>'
+        - 'Product Owner: "<a href='https://www.linkedin.com/in/lshapirosf/'>Leonid Shapiro</a>'
         - Developed ML model using Azure Virtual Desktop logs.
         - Built GenAI application converting DDRs into OSDU JSON.
         - Created data pipelines for 800+ wells using Databricks & Power BI.
@@ -71,9 +71,9 @@
       institution: HCLTech
       year: May'22 - Aug'22
       description:
-        - Team: Oil & Gas Consulting
-        - Client: ExxonMobil
-        - Manager: "<a href='https://www.linkedin.com/in/deepak-bhardwaj-08a0278/'>Deepak Bhardwaj</a>"
+        - 'Team: Oil & Gas Consulting'
+        - 'Client: ExxonMobil'
+        - 'Manager: "<a href='https://www.linkedin.com/in/deepak-bhardwaj-08a0278/'>Deepak Bhardwaj</a>'
         - Built ML alarm system predicting kicks/blowouts using Random Forest.
         - Addressed imbalance using SMOTE.
         - Conducted extensive EDA using seaborn & pandas.
