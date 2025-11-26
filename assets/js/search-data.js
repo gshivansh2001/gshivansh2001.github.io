@@ -37,7 +37,51 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/books/";
           },
-        },{id: "news-joined-the-sritne-team-at-isb-and-started-working-as-a-pre-doctoral-researcher-in-the-information-systems-department",
+        },{id: "post-proabilistic-matrix-factorization",
+        
+          title: "Proabilistic Matrix Factorization",
+        
+        description: "Scalable solution for large, sparse, and imbalanced data",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2024/pmf/";
+          
+        },
+      },{id: "post-variational-calculus",
+        
+          title: "Variational Calculus",
+        
+        description: "A brief introduction",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2023/vc/";
+          
+        },
+      },{id: "post-rényi-dp",
+        
+          title: "Rényi DP",
+        
+        description: "A natural relaxation of DP",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2023/rdp/";
+          
+        },
+      },{id: "post-differential-privacy",
+        
+          title: "Differential Privacy",
+        
+        description: "What is it and why is it needed",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2023/dp/";
+          
+        },
+      },{id: "news-joined-the-sritne-team-at-isb-and-started-working-as-a-pre-doctoral-researcher-in-the-information-systems-department",
           title: 'Joined the SRITNE team at ISB and started working as a pre-doctoral researcher...',
           description: "",
           section: "News",},{id: "news-attended-isb-nber-conference-on-information-and-competition-in-the-digital-economy",
