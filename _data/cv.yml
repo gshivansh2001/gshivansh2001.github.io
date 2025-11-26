@@ -1,97 +1,112 @@
-- title: General Information
+- title: General Information 
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
-    - name: Languages
-      value: English, German
+      value: Shivansh Gupta
+    - name: Location
+      value: Hyderabad, India
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: Bachelor of Technology, Petroleum Engineering
+      institution: Indian Institute of Technology (ISM), Dhanbad, India
+      year: 2019 - 2023
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
-      description:
-        - Description 1.
-        - Description 2.
+        - GPA - 7.83/10, (MCM Scholarship Recipient) 
+        - Related courses - Engineering Economics & Finance, Object Oriented Programming, Data mining, Financial Econometrics, Operations Research, Development Economics, Fundamentals of Machine Learning, Data Analytics, International Macroeconomics and Monetary Policy, Reservoir Modelling and Simulation
 
-- title: Experience
+- title: Research Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: Research Associate
+      institution: Indian School of Business, Hyderabad
+      year: Dec'24 - Ongoing
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+        - "Department: Information Systems"
+        - "Advisor: <a href='https://www.isb.edu/faculty-and-research/faculty-directory/vasundhara-sharma'>Dr. Vasundhara Sharma</a>"
+        - "Research Focus: Passionate about applying machine learning (ML) and data science to macroeconomic measures and public policy, aiming to evaluate and enhance their impact on society"
+        - Conducting a research project on the impact of social movements in the digital world and another project simulating a virtual environment to curb the spread of misinformation in social networks, while supporting professors in academic research and data-driven analyses.
+        - Currently working with web scraping tools like Selenium, applying natural language processing (NLP) techniques, and leveraging large language models (LLMs) for text data analysis and generating actionable insights.
+        - "Methodologies: Econometric Analysis, Structural Modeling & Survery"
+          
+    - title: Project Intern
+      institution: Directorate General of Mine Safety (DGMS), Ministry of Labour & Employment, Government of India
+      year: Aug'22 - Feb'23
       description:
-        - Description 1.
-        - Description 2.
-
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
+        - "Team: <a href='https://sites.google.com/view/dail-lab/home?authuser=0'>Mine Digitalization and Artificial Intelligence Lab</a>"
+        - "Advisor: <a href='https://www.linkedin.com/in/siddharth-agarwal-86179613/'>Prof. Siddharth Agarwal</a>"
+        - Conducted an independent research project analysing the root causes of fatalities in Indian coal and non-coal mines using historical DGMS fatality reports.
+        - Developed a customised text mining pipeline using Python's re and nltk libraries to extract structured data from unstructured PDF reports spanning multiple years.
+        - Designed and implemented a relational MySQL database to systematically organise fatality records by mine type, location, cause, and year, facilitating longitudinal analysis.
+        - Utilized pandas, matplotlib, and plotly to generate analytical visualisations revealing temporal patterns and critical risk factors contributing to mine accidents.
+        - The project provided actionable insights into systemic safety failures and informed recommendations for targeted regulatory interventions.
+        
+    - title: Research Intern
+      institution: Indian Institute of Management (IIM), Udaipur
+      year: May'21 - Aug'21
       description:
+        - "Advisor: <a href='https://www.ashishgalande.com/home'>Prof. Ashish Galande</a>"        
+        - Created a structured dataset of Fortune 500 companies’ tweets through web scraping using Twint and Scrapy in Python to analyse CSR activities and study principles of conscious capitalism.
+        - Utilised text analysis and NLP techniques to compute lexical diversity and sentiment scores using NLTK and VADER libraries.
+        - Preprocessed and vectorised text, and leveraged sentiment scores to develop a sentiment analysis model using RNN in TensorFlow.
 
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
-
-- title: Open Source Projects
+- title: Work Experience
   type: time_table
   contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+    - title: Data Scientist
+      institution: HCLTech
+      year: Jul'23 - Nov'24
+      description:
+        - "Team: Oil & Gas Consulting Team"
+        - "Client: Chevron"
+        - "Manager: <a href='https://www.linkedin.com/in/jaspreet-singh-86bb2319/'>Jaspreet Singh</a> | Product Owner: <a href='https://www.linkedin.com/in/lshapirosf/'>Leonid Shapiro</a>"
+        - Working with the AIOps team to develop a supervised machine learning model which analyses Azure Virtual Desktop log data to predict issues to automate and streamline L1 support.
+        - Developed a Generative AI application for analysing O&G daily drilling reports (DDRs) to convert them into OSDU-compliant JSON data for direct ingestion in the OSDU environment. Used Azure ML Studio with OpenAI GPT-3.5 Turbo API and LangChain in Python for developing the application and Gradio for developing the interface.
+        - Created and managed data pipelines and dashboards for asset management across 800 O&G wells using Azure Databricks, Power BI and internal asset management tools.
+        - Developed an application for registering new and reimaged remote desktop data, creating an SQL database for asset management with Azure Function and Power Apps in Python.
+        - Contributed to OSDU production and logging practices with DataVedik.
+          
+    - title: Machine Learning Intern
+      institution: HCLTech
+      year: May'22 - Aug'22
+      description:
+        - "Team: Oil & Gas Consulting Team"
+        - "Client: ExxonMobil"
+        - "Manager: <a href='https://www.linkedin.com/in/deepak-bhardwaj-08a0278/'>Deepak Bhardwaj</a>"
+        - Developed adaptive ML-based alarm system using Random Forest in Python for early detection of kicks and blowouts in O&G wells, using Equinor’s Volve dataset.
+        - Addressed imbalance in the dataset with SMOTE. Trained supervised ML models using Sklearn & TensorFlow for optimal prediction results.
+        - Conducted extensive data preprocessing & EDA using seaborn & pandas. Implemented a method to label kicks in the dataset using DDRs & lithological parameters.
+        - A patent was filed (in progress) for the data labelling mechanism used in the model. Received pre-placement offer upon completion
 
-- title: Honors and Awards
-  type: time_table
-  contents:
-    - year: 1921
-      items:
-        - Nobel Prize in Physics
-        - Matteucci Medal
-    - year: 2029
-      items:
-        - Max Planck Medal
-
-- title: Academic Interests
-  type: nested_list
-  contents:
-    - title: Topic 1.
-      items:
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
-      items:
-        - Description 1.
-        - Description 2.
-
-- title: Other Interests
+- title: Technical Skills
   type: list
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - <u>Programming Languages:</u> C, C++, Python, SQL, R
+    - <u>Framework:</u> Keras, TensorFlow, Flask, Lang Chain, Gradio, PyTorch, Selenium
+    - <u>Dev tools:</u> Git, Bash, Powershell, Docker, Postman, Linux, Anaconda, Microsoft Azure, MS Excel, PowerBI, R Studio, STATA
+    - <u>Libraries/Frameworks:</u> matplotlib, seaborn, pandas, NumPy, stats models, NLTK, OpenCV, Plotly, spaCy, Scikit - learn
+
+- title: Honors and Awards
+  type: list
+  contents:
+    - Achieved top 10th percentile, Univ.AI Data Science hackathon, displaying analytical prowess with an AIR of 96.
+    - Headed the SPE IIT (ISM) Student Chapter Editorial, securing the 2022 Student Chapter Excellence Award, awarded to only the top 20% of chapters globally
+    - Earned a Bronze medal in the Otto Group Product Classification Kaggle Competition, showcasing expertise in ML and data classification.
+    - Secured 2nd position for writing and directing mono-act & 5th position in stage play as director at InterIIT Cultural Meet ’22, outperforming 23 IITs
+    - MCM Scholarship (Scholarship for academic excellence), IIT (ISM) Dhanbad
+
+- title: Conferences & Volunteering
+  type: nested_list
+  contents:
+    - title: Conferences
+      items:
+        - "Jan 2025: Attended and volunteered at <a href="https://connect.informs.org/iss/blogs/ramnath-chellappa/2024/09/16/code2024-25">CODE: Conference on the Digital Economy</a>, Indian School of Business, Varanasi."
+        - "Dec 2024: Attended <a href="https://www.nber.org/conferences/information-and-competition-digital-economy-fall-2024">ISB-NBER Conference on Information and Competition in the Digital Economy</a>"
+    - title: Teaching
+      items:
+        - Designed a course and taught Machine Learning, Data Science, and Python programming to First Year Joiners at Society of Petroleum Engineering, IIT (SIM) Dhanbad (2021)
+
+    - title: Social Responsibility
+      items:
+        - "NGO Volunteer - Kartavya, IIT (ISM) Dhanbad: Volunteered to teach mathematics to class 9th and 10th children in Dhanbad to help them ace their board exams. (2019-2023)"
