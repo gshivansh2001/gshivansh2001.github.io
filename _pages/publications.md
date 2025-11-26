@@ -7,7 +7,7 @@ nav: true
 nav_order: 1
 ---
 
-
+<h4> Research Interests </h4>
 <p style="text-align: justify;">
 My research focuses on understanding how digital platforms shape user behavior, economic incentives, and societal outcomes. I am particularly interested in platform governance, design, reputation mechanisms, and algorithmic fairness. I aim to uncover structural inequities using large-scale data and computational methods to inform the responsible design of digital systems.
 </p>
