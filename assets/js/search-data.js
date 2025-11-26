@@ -389,12 +389,7 @@ ninja.data = [{
             window.location.href = "/blog/2015/formatting-and-links/";
           
         },
-      },{id: "books-the-godfather",
-          title: 'The Godfather',
-          description: "",
-          section: "Books",handler: () => {
-              window.location.href = "/books/the_godfather/";
-            },},{id: "news-joined-the-sritne-team-at-isb-and-started-working-as-a-pre-doctoral-researcher-in-the-information-systems-department",
+      },{id: "news-joined-the-sritne-team-at-isb-and-started-working-as-a-pre-doctoral-researcher-in-the-information-systems-department",
           title: 'Joined the SRITNE team at ISB and started working as a pre-doctoral researcher...',
           description: "",
           section: "News",},{id: "news-attended-isb-nber-conference-on-information-and-competition-in-the-digital-economy",
