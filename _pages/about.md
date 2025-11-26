@@ -1,19 +1,16 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: "Pre-Doctoral Research Associate at <a href='https://www.isb.edu/'>Indian School of Business</a> <br> Email: shivansh_gupta@isb.edu"
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: prof_pic.JPG
   image_circular: false # crops the image to make it circular
-  more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+  more_info: 
 
-selected_papers: true # includes a list of papers marked as "selected={true}"
+selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 
 announcements:
@@ -22,13 +19,25 @@ announcements:
   limit: 5 # leave blank to include all the news in the `_news` folder
 
 latest_posts:
-  enabled: true
+  enabled: false
   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+<h3>About</h3>
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+Hi! I'm Shivansh, a Pre-Doctoral Research Associate at the Indian School of Business in the Information Systems group. I work with <a href="https://www.isb.edu/faculty-and-research/faculty-directory/vasundhara-sharma">Professor Vasundhara Sharma</a>, at <a href="https://www.isb.edu/faculty-and-research/srini-raju-centre-for-it-and-the-networked-economy">SRITNE</a> lab in the Information Systems Department. My work broadly lies at the intersection of digital platforms, human behavior, and algorithmic governance.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+<p style="text-align: justify;"> <b>Prior Experiences</b>: Before joining ISB, I worked as a Data Scientist at HCLTech, developing machine-learning and analytics solutions for Chevron and ExxonMobil.  My work focused on creating and optimising data ingestion pipelines and building predictive models for asset management and maintenance analytics. This hands-on industry experience deepened my interest in how data-driven technologies impact organisations and people, ultimately leading me to transition into Information Systems and computational social science research. I hold a B.Tech in Petroleum Engineering from IIT (ISM) Dhanbad.
+</p>
+
+<h3>Research Interests</h3>
+<p style="text-align: justify;">
+I am interested in how digital platforms shape behavior, incentives, and social outcomes. Broadly, I study platform governance, designm reputation systems, and algorithmic bias using large-scale data and computational methods.
+</p>
+
+To learn more about my interests and recent explorations, please visit my [Research](https://gshivansh2001.github.io/publications/) page. 
+
+<p><b>Looking Ahead:</b> I am exploring PhD opportunities in Information Systems and related fields. Please feel free to reach out!</p>
+
+
