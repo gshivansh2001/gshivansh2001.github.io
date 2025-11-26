@@ -7,8 +7,6 @@ nav_order: 4
 collection: books
 ---
 
-<h3>Beyond Research</h3>
-
 <p style="text-align: justify">
 Outside academia, I find expression, creativity, and connection through cinema, acting, and directing. Storytelling lets me appreciate different perspectives, delve into human emotions, and explore the magic that resonates across borders and time.
 </p>
