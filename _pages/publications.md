@@ -17,30 +17,30 @@ My research focuses on understanding how digital platforms shape user behavior, 
 ## 📝 Work in Progress
 
 **The Generative AI Dilemma: Enhancing Productivity while Managing Technical Debt in Open Source Development**  
-<em>with <a href="https://www.isb.edu/faculty-and-research/faculty-directory/vasundhara-sharma">Prof. Vasundhara Sharma</a>, <a href="https://askaranam.github.io/">Prof. Aditya Karanam</a></em>  
+with <a href="https://www.isb.edu/faculty-and-research/faculty-directory/vasundhara-sharma">Prof. Vasundhara Sharma</a>, <a href="https://askaranam.github.io/">Prof. Aditya Karanam</a>  
 
 **Effects of Social Movements on Student Bias in Faculty Evaluations**  
-<em>with <a href="https://www.isb.edu/faculty-and-research/faculty-directory/vasundhara-sharma">Prof. Vasundhara Sharma</a>, <a href="https://www.isb.edu/faculty-and-research/faculty-directory/deepa-mani">Prof. Deepa Mani</a>, <a href="https://askaranam.github.io/">Prof. Aditya Karanam</a></em>  
+with <a href="https://www.isb.edu/faculty-and-research/faculty-directory/vasundhara-sharma">Prof. Vasundhara Sharma</a>, <a href="https://www.isb.edu/faculty-and-research/faculty-directory/deepa-mani">Prof. Deepa Mani</a>, <a href="https://askaranam.github.io/">Prof. Aditya Karanam</a>
 
 **Effects of AI Disclosure on Early-Stage Ventures**  
-<em>with <a href="https://www.isb.edu/faculty-and-research/faculty-directory/vasundhara-sharma">Prof. Vasundhara Sharma</a>, <a href="https://www.linkedin.com/in/aketi-gayatri-790a20147/"> Aketi Gayatri</a> </em> 
+with <a href="https://www.isb.edu/faculty-and-research/faculty-directory/vasundhara-sharma">Prof. Vasundhara Sharma</a>, <a href="https://www.linkedin.com/in/aketi-gayatri-790a20147/"> Aketi Gayatri</a>
 
 ---
 
 ## 🔍 Research Assistance
 
 - **Platform Design to Curb Misinformation**  
-  <em>with <a href="https://www.isb.edu/faculty-and-research/faculty-directory/vasundhara-sharma">Prof. Vasundhara Sharma</a></em>
+  with <a href="https://www.isb.edu/faculty-and-research/faculty-directory/vasundhara-sharma">Prof. Vasundhara Sharma</a>
 
 - **Hidden Ads in YouTube Kids Videos: Effects of Platform Policy Changes**  
-  <em>with <a href="https://www.isb.edu/faculty-and-research/faculty-directory/vasundhara-sharma">Prof. Vasundhara Sharma</a>, <a href="https://www.isb.edu/faculty-and-research/faculty-directory/sumeet-kumar">Prof. Sumeet Kumar</a></em>
+  with <a href="https://www.isb.edu/faculty-and-research/faculty-directory/vasundhara-sharma">Prof. Vasundhara Sharma</a>, <a href="https://www.isb.edu/faculty-and-research/faculty-directory/sumeet-kumar">Prof. Sumeet Kumar</a>
 
 ---
 
 ## 🏛 Conference Papers
 
 **Automated Analysis through Natural Language Processing of DGMS Fatality Reports on Indian Non-Coal Mines**  
-<em>Himanshu Shekhar, <strong>Shivansh Gupta</strong>, Prof. Siddharth Aggarwal</em>  
+Himanshu Shekhar, <strong>Shivansh Gupta</strong>, Prof. Siddharth Aggarwal
 Presented at the <strong>4th International Conference on Information Systems and Computer Networks</strong>, 2019.
 
 ---
@@ -48,6 +48,6 @@ Presented at the <strong>4th International Conference on Information Systems and
 ## 📜 Patent
 
 **Method and System for Classifying and Detecting True Well Control Events During Drilling Operations**  
-<em> <a href="https://www.linkedin.com/in/jaspreet-singh-86bb2319/">Jaspreet Singh</a> , <a href="https://www.linkedin.com/in/somnath-das-22004428/">Somnath Das</a> , <a href="https://www.linkedin.com/in/idris-kagdi-0a2497131/">Idris Kagdi</a> , <strong>Shivansh Gupta</strong></em>  
+<a href="https://www.linkedin.com/in/jaspreet-singh-86bb2319/">Jaspreet Singh</a> , <a href="https://www.linkedin.com/in/somnath-das-22004428/">Somnath Das</a> , <a href="https://www.linkedin.com/in/idris-kagdi-0a2497131/">Idris Kagdi</a> , <strong>Shivansh Gupta</strong>
 Indian Patent Office — Patent No. 202311057956  
 <strong>Status:</strong> Published, Under Review
