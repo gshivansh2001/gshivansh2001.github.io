@@ -16,26 +16,26 @@ My research focuses on understanding how digital platforms shape user behavior, 
 
 ## 📝 Work in Progress
 
-**The Generative AI Dilemma: Enhancing Productivity while Managing Technical Debt in Open Source Development**  
+- **The Generative AI Dilemma: Enhancing Productivity while Managing Technical Debt in Open Source Development**  
 with <a href="https://www.isb.edu/faculty-and-research/faculty-directory/vasundhara-sharma">Prof. Vasundhara Sharma</a>, <a href="https://askaranam.github.io/">Prof. Aditya Karanam</a>  
 
-**Effects of Social Movements on Student Bias in Faculty Evaluations**  
+- **Effects of Social Movements on Student Bias in Faculty Evaluations**  
 with <a href="https://www.isb.edu/faculty-and-research/faculty-directory/vasundhara-sharma">Prof. Vasundhara Sharma</a>, <a href="https://www.isb.edu/faculty-and-research/faculty-directory/deepa-mani">Prof. Deepa Mani</a>, <a href="https://askaranam.github.io/">Prof. Aditya Karanam</a>
 
-**Examining Effects of AI Disclosure on Early-Stage Ventures**  
+- **Examining Effects of AI Disclosure on Early-Stage Ventures**  
 with <a href="https://www.isb.edu/faculty-and-research/faculty-directory/vasundhara-sharma">Prof. Vasundhara Sharma</a>, <a href="https://www.linkedin.com/in/aketi-gayatri-790a20147/"> Aketi Gayatri</a>
 
 ---
 
 ## 🔍 Research Assistance
 
-**Platform Design to Curb Misinformation**  
+- **Platform Design to Curb Misinformation**  
   with <a href="https://www.isb.edu/faculty-and-research/faculty-directory/vasundhara-sharma">Prof. Vasundhara Sharma</a>
 
-**Hidden Ads in YouTube Kids Videos: Effects of Platform Policy Changes**  
+- **Hidden Ads in YouTube Kids Videos: Effects of Platform Policy Changes**  
   with <a href="https://www.isb.edu/faculty-and-research/faculty-directory/vasundhara-sharma">Prof. Vasundhara Sharma</a>, <a href="https://www.isb.edu/faculty-and-research/faculty-directory/sumeet-kumar">Prof. Sumeet Kumar</a>
 
-**Platform Me or Not: Case of Digital Goods**  
+- **Platform Me or Not: Case of Digital Goods**  
   with <a href="https://www.isb.edu/faculty-and-research/faculty-directory/vasundhara-sharma">Prof. Vasundhara Sharma</a>
   
 ---
