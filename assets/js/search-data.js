@@ -429,16 +429,17 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-a-simple-inline-announcement",
-          title: 'A simple inline announcement.',
+            },},{id: "news-joined-the-sritne-team-at-isb-and-started-working-as-a-pre-doctoral-researcher-in-the-information-systems-department",
+          title: 'Joined the SRITNE team at ISB and started working as a pre-doctoral researcher...',
           description: "",
-          section: "News",},{id: "news-a-long-announcement-with-details",
-          title: 'A long announcement with details',
+          section: "News",},{id: "news-attended-isb-nber-conference-on-information-and-competition-in-the-digital-economy",
+          title: 'Attended ISB-NBER Conference on Information and Competition in the Digital Economy.',
           description: "",
-          section: "News",handler: () => {
-              window.location.href = "/news/announcement_2/";
-            },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
-          title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
+          section: "News",},{id: "news-attended-and-volunteered-at-code-conference-on-the-digital-economy-varanasi",
+          title: 'Attended and volunteered at CODE: Conference on the Digital Economy, Varanasi.',
+          description: "",
+          section: "News",},{id: "news-attending-and-volunteering-for-isb-poms-workshop-2025-indian-school-of-business-hyderabad",
+          title: 'Attending and volunteering for ISB POMS Workshop 2025, Indian School of Business, Hyderabad....',
           description: "",
           section: "News",},{id: "projects-project-1",
           title: 'project 1',
