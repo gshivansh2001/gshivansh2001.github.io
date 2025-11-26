@@ -33,7 +33,7 @@ Hi! I'm Shivansh, a Pre-Doctoral Research Associate at the Indian School of Busi
 
 <h3>Research Interests</h3>
 <p style="text-align: justify;">
-I am interested in how digital platforms shape behavior, incentives, and social outcomes. Broadly, I study platform governance, design, reputation systems, and algorithmic bias using large-scale data and computational methods. <br> To learn more about my interests and recent explorations, please visit my [Research](https://gshivansh2001.github.io/publications/) page. </p>
+I am interested in how digital platforms shape behavior, incentives, and social outcomes. Broadly, I study platform governance, design, reputation systems, and algorithmic bias using large-scale data and computational methods. <br> To learn more about my interests and recent explorations, please visit my <a href="https://gshivansh2001.github.io/publications/">Research</a> page. </p>
 
 <p><b>Looking Ahead:</b> I am exploring PhD opportunities in Information Systems and related fields. Please feel free to reach out!</p>
 
