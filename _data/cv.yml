@@ -24,32 +24,32 @@
       year: Dec'24 - Ongoing
       description:
         - Department: Information Systems
-        - Advisor: <a href='https://www.isb.edu/faculty-and-research/faculty-directory/vasundhara-sharma'>Dr. Vasundhara Sharma</a>
-        - Research Focus: Passionate about applying machine learning (ML) and data science to macroeconomic measures and public policy, aiming to evaluate and enhance their impact on society
-        - Conducting a research project on the impact of social movements in the digital world and another project simulating a virtual environment to curb the spread of misinformation in social networks.
-        - Working with Selenium, NLP techniques, and large language models (LLMs) for text data analysis.
-        - Methodologies: Econometric Analysis, Structural Modeling & Survey
+        - Advisor: "<a href='https://www.isb.edu/faculty-and-research/faculty-directory/vasundhara-sharma'>Dr. Vasundhara Sharma</a>"
+        - Research Focus: "Applying ML and data science to macroeconomic measures and public policy."
+        - "Conducting a research project on the impact of social movements in the digital world."
+        - "Working with Selenium, NLP, and LLMs for text analysis."
+        - Methodologies: "Econometric Analysis, Structural Modeling, Survey"
 
     - title: Project Intern
       institution: Directorate General of Mine Safety (DGMS), Ministry of Labour & Employment
       year: Aug'22 - Feb'23
       description:
-        - Team: <a href='https://sites.google.com/view/dail-lab/home?authuser=0'>Mine Digitalization and Artificial Intelligence Lab</a>
-        - Advisor: <a href='https://www.linkedin.com/in/siddharth-agarwal-86179613/'>Prof. Siddharth Agarwal</a>
-        - Conducted research analysing root causes of fatalities in Indian coal and non-coal mines using DGMS fatality reports.
-        - Developed a customised text mining pipeline using Python’s re and nltk libraries to extract structured data from unstructured PDFs.
-        - Designed a MySQL database to organise fatality records by mine type, location, cause, and year.
-        - Utilized pandas, matplotlib, plotly to generate analytical visualisations.
-        - Provided insights informing regulatory interventions.
+        - "Team: <a href='https://sites.google.com/view/dail-lab/home?authuser=0'>Mine Digitalization and AI Lab</a>"
+        - "Advisor: <a href='https://www.linkedin.com/in/siddharth-agarwal-86179613/'>Prof. Siddharth Agarwal</a>"
+        - Conducted research analysing causes of fatalities in Indian coal and non-coal mines using DGMS reports.
+        - Built text mining pipelines using Python (re, nltk).
+        - Designed MySQL database for organising fatality data.
+        - Produced visualisations using pandas, matplotlib, plotly.
+        - Provided actionable insights for policy.
 
     - title: Research Intern
       institution: Indian Institute of Management (IIM), Udaipur
       year: May'21 - Aug'21
       description:
-        - Advisor: <a href='https://www.ashishgalande.com/home'>Prof. Ashish Galande</a>
-        - Created a structured dataset of Fortune 500 companies’ tweets via web scraping using Twint and Scrapy.
-        - Computed lexical diversity & sentiment scores using NLTK and VADER.
-        - Developed an RNN-based sentiment model in TensorFlow.
+        - "Advisor: <a href='https://www.ashishgalande.com/home'>Prof. Ashish Galande</a>"
+        - Scraped Fortune 500 tweets using Twint/Scrapy.
+        - Calculated lexical diversity & sentiment (NLTK, VADER).
+        - Built RNN-based sentiment model in TensorFlow.
 
 - title: Work Experience
   type: time_table
@@ -58,54 +58,48 @@
       institution: HCLTech
       year: Jul'23 - Nov'24
       description:
-        - Team: Oil & Gas Consulting Team
+        - Team: Oil & Gas Consulting
         - Client: Chevron
-        - Manager: <a href='https://www.linkedin.com/in/jaspreet-singh-86bb2319/'>Jaspreet Singh</a> | Product Owner: <a href='https://www.linkedin.com/in/lshapirosf/'>Leonid Shapiro</a>
-        - Developed ML model analysing Azure Virtual Desktop logs to automate L1 support.
-        - Built a Generative AI application for converting O&G drilling reports into OSDU-compliant JSON.
-        - Managed data pipelines and dashboards for 800+ wells using Azure Databricks, Power BI.
-        - Developed RDP asset management system using Azure Functions + Power Apps.
-        - Contributed to OSDU production and logging via DataVedik.
+        - Manager: "<a href='https://www.linkedin.com/in/jaspreet-singh-86bb2319/'>Jaspreet Singh</a>"
+        - Product Owner: "<a href='https://www.linkedin.com/in/lshapirosf/'>Leonid Shapiro</a>"
+        - Developed ML model using Azure Virtual Desktop logs.
+        - Built GenAI application converting DDRs into OSDU JSON.
+        - Created data pipelines for 800+ wells using Databricks & Power BI.
+        - Built RDP asset management system using Azure Functions + PowerApps.
 
     - title: Machine Learning Intern
       institution: HCLTech
       year: May'22 - Aug'22
       description:
-        - Team: Oil & Gas Consulting Team
+        - Team: Oil & Gas Consulting
         - Client: ExxonMobil
-        - Manager: <a href='https://www.linkedin.com/in/deepak-bhardwaj-08a0278/'>Deepak Bhardwaj</a>
-        - Developed adaptive ML-based alarm system using Random Forest for early detection of kicks/blowouts.
-        - Addressed dataset imbalance using SMOTE.
-        - Conducted EDA and preprocessing using seaborn & pandas.
-        - Contributed to labelling methodology (patent filed).
+        - Manager: "<a href='https://www.linkedin.com/in/deepak-bhardwaj-08a0278/'>Deepak Bhardwaj</a>"
+        - Built ML alarm system predicting kicks/blowouts using Random Forest.
+        - Addressed imbalance using SMOTE.
+        - Conducted extensive EDA using seaborn & pandas.
+        - Contributed to patent-filed data labelling mechanism.
 
 - title: Technical Skills
   type: list
   contents:
-    - <u>Programming Languages:</u> C, C++, Python, SQL, R
-    - <u>Frameworks:</u> Keras, TensorFlow, Flask, LangChain, Gradio, PyTorch, Selenium
-    - <u>Dev Tools:</u> Git, Bash, Powershell, Docker, Postman, Linux, Anaconda, Azure, MS Excel, PowerBI, R Studio, STATA
-    - <u>Libraries:</u> matplotlib, seaborn, pandas, NumPy, statsmodels, NLTK, OpenCV, Plotly, spaCy, scikit-learn
+    - "<u>Programming Languages:</u> C, C++, Python, SQL, R"
+    - "<u>Frameworks:</u> Keras, TensorFlow, Flask, LangChain, Gradio, PyTorch, Selenium"
+    - "<u>Dev Tools:</u> Git, Bash, Powershell, Docker, Postman, Linux, Azure, Anaconda, PowerBI, R Studio, STATA"
+    - "<u>Libraries:</u> matplotlib, seaborn, pandas, NumPy, statsmodels, NLTK, OpenCV, Plotly, spaCy, scikit-learn"
 
 - title: Honors and Awards
   type: list
   contents:
-    - Achieved top 10th percentile at Univ.AI Data Science Hackathon (AIR 96).
-    - Headed SPE IIT (ISM) Editorial; received 2022 Student Chapter Excellence Award.
-    - Bronze medal in Otto Group Product Classification Kaggle Competition.
-    - 2nd place mono-act director & 5th place stage play director at InterIIT Cultural Meet 2022.
-    - MCM Scholarship (Academic Excellence), IIT (ISM) Dhanbad.
+    - "Top 10 percentile, Univ.AI Data Science Hackathon (AIR 96)."
+    - "SPE IIT (ISM) Editorial Head — 2022 Student Chapter Excellence Award."
+    - "Bronze medal, Otto Group Product Classification Kaggle Competition."
+    - "2nd (mono-act director) & 5th (stage play director), InterIIT Cultural Meet 2022."
+    - "MCM Scholarship, IIT (ISM) Dhanbad."
 
 - title: Conferences & Volunteering
   type: nested_list
   contents:
     - title: Conferences
       items:
-        - 'Jan 2025: Attended and volunteered at <a href="https://connect.informs.org/iss/blogs/ramnath-chellappa/2024/09/16/code2024-25">CODE: Conference on the Digital Economy</a>, Indian School of Business.'
-        - 'Dec 2024: Attended <a href="https://www.nber.org/conferences/information-and-competition-digital-economy-fall-2024">ISB-NBER Conference on Information and Competition in the Digital Economy</a>.'
-    - title: Teaching
-      items:
-        - Designed and taught ML, Data Science, and Python programming for First Year Joiners at SPE IIT (ISM) Dhanbad (2021).
-    - title: Social Responsibility
-      items:
-        - 'NGO Volunteer - Kartavya, IIT (ISM) Dhanbad: Taught mathematics to class 9–10 students to help them prepare for board exams (2019–2023).'
+        - "Jan 2025: Attended and volunteered at <a href='https://connect.informs.org/iss/blogs/ramnath-chellappa/2024/09/16/code2024-25'>CODE: Conference on the Digital Economy</a>, ISB."
+        - "Dec 2024: Attended <a href='https://www.nber.org/conferences/information-and-competition-digital-economy-fall-2024'>ISB–NBER Conference on Information and Competition in the Digital Economy</a>."
