@@ -146,7 +146,7 @@ collections:
     defaults:
       layout: post
     output: true
-    permalink: /updates/:path/
+    
 
 # -----------------------------------------------------------------------------
 # Jekyll settings
