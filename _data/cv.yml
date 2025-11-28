@@ -87,16 +87,16 @@
 - title: Achievements
   type: nested_list
   contents:
-    - title: Scholastic 
+    - title: Scholastic
       items:
         - "Top 10% (AIR 96) in the Univ.AI Data Science Hackathon."
         - "Bronze Medal, Otto Group Product Classification Kaggle Competition."
         - "Summer Undergraduate Research Fellowship, Department of Computer Science, IIT (ISM) Dhanbad."
         - "Merit-cum-Means (MCM) Scholarship recipient for all eight semesters."
-     - title: Extracurricular
+    - title: Extracurricular
       items:
         - "Served as Editorial Head, SPE IIT (ISM) Student Chapter; contributed to winning the 2022 Student Chapter Excellence Award (top 20% globally)."
-        - "Placed 2nd (mono-act director) and 5th (stage play director) at InterIIT Cultural Meet 2022 among 23 participating IITs." 
+        - "Placed 2nd (mono-act director) and 5th (stage play director) at InterIIT Cultural Meet 2022 among 23 participating IITs."
         - "Represented District Cricket Team Banda in the Under-17 Ranji Trophy (2016)."
 
 - title: Conferences & Volunteering
@@ -106,7 +106,7 @@
       items:
         - "Jan 2025: Attended and volunteered at <a href='https://connect.informs.org/iss/blogs/ramnath-chellappa/2024/09/16/code2024-25'>CODE: Conference on the Digital Economy</a>, ISB."
         - "Dec 2024: Attended <a href='https://www.nber.org/conferences/information-and-competition-digital-economy-fall-2024'>ISB–NBER Conference on Information and Competition in the Digital Economy</a>."
-     - title: Volunteer Work
+    - title: Volunteer Work
       items:
         - "Teaching Assistant, SPE IIT (ISM) Student Chapter, 2021-22: Designed and taught a short course on Machine Learning and Python for first-year undergraduates."
-        - "Volunteer, Kartavya NGO, 2020-22: Provided mathematics academic support to 9th–10th grade students through structured weekly sessions" 
+        - "Volunteer, Kartavya NGO, 2020-22: Provided mathematics academic support to 9th–10th grade students through structured weekly sessions."
