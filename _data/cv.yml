@@ -14,7 +14,7 @@
       year: 2019 - 2023
       description:
         - GPA - 7.83/10, (MCM Scholarship Recipient)
-        - Related courses - Engineering Economics & Finance, Object Oriented Programming, Data mining, Financial Econometrics, Operations Research, Development Economics, Fundamentals of Machine Learning, Data Analytics, International Macroeconomics and Monetary Policy, Reservoir Modelling and Simulation
+        - Relevant courses - Engineering Economics & Finance, Data mining, Financial Econometrics, Operations Research, Development Economics, Machine Learning, International Macroeconomics & Monetary Policy, Reservoir Modelling and Simulation
 
 - title: Research Experience
   type: time_table
@@ -25,31 +25,31 @@
       description:
         - 'Department: Information Systems'
         - 'Advisor: <a href="https://www.isb.edu/faculty-and-research/faculty-directory/vasundhara-sharma">Dr. Vasundhara Sharma</a>'
-        - 'Research Focus: Applying ML and data science to macroeconomic measures and public policy.'
-        - "Conducting a research project on the impact of social movements in the digital world."
-        - "Working with Selenium, NLP, and LLMs for text analysis."
-        - 'Methodologies: Econometric Analysis, Structural Modeling, Survey'
-
+        - 'Developing an original early-stage research idea; responsible for data collection, preliminary empirical tests, model validation, and feasibility assessment for future publication.'
+        - "Designed and deployed randomized Qualtrics surveys with dynamic question flows, embedded experiments, manipulations, and attention-check logic, supporting causal inference in behavioral studies."
+        - "Executed end-to-end data workflows: web scraping , large-scale text processing , data cleaning, statistical analysis, and visualization."
+        - 'Performed econometric analyses using panel regressions, event-study frameworks, supervised ML pipelines, and agent-based simulations to study digital platform behavior.'
+        - "Conducted systematic literature reviews in platform governance, misinformation, IS/marketing strategy, and digital public policy to synthesize theoretical frameworks and identify research gaps."
+        - "Methodological toolkit: econometrics, causal inference, survey design, simulation, and computational text analysis."
+        
     - title: Project Intern
       institution: Directorate General of Mine Safety (DGMS), Ministry of Labour & Employment
       year: Aug'22 - Feb'23
       description:
         - "Team: <a href='https://sites.google.com/view/dail-lab/home?authuser=0'>Mine Digitalization and AI Lab</a>"
         - "Advisor: <a href='https://www.linkedin.com/in/siddharth-agarwal-86179613/'>Prof. Siddharth Agarwal</a>"
-        - Conducted research analysing causes of fatalities in Indian coal and non-coal mines using DGMS reports.
-        - Built text mining pipelines using Python (re, nltk).
-        - Designed MySQL database for organising fatality data.
-        - Produced visualisations using pandas, matplotlib, plotly.
-        - Provided actionable insights for policy.
+        - Developed a custom text-mining pipeline to extract structured data from multi-year PDF fatality reports.
+        - Built and released a publicly accessible MySQL database of mining-fatality records for longitudinal research use.
+        - Conducted exploratory and statistical analyses to identify systemic patterns and root causes of mining accidents.
 
     - title: Research Intern
       institution: Indian Institute of Management (IIM), Udaipur
       year: May'21 - Aug'21
       description:
         - "Advisor: <a href='https://www.ashishgalande.com/home'>Prof. Ashish Galande</a>"
-        - Scraped Fortune 500 tweets using Twint/Scrapy.
-        - Calculated lexical diversity & sentiment (NLTK, VADER).
-        - Built RNN-based sentiment model in TensorFlow.
+        - Constructed a large-scale dataset of Fortune 500 firms’ Twitter activity via Python-based web scraping.
+        - Applied NLP techniques to measure sentiment, lexical diversity, and linguistic patterns across firms and sectors.
+        - Implemented RNN-based sentiment classification in TensorFlow to benchmark performance against rule-based methods.
 
 - title: Work Experience
   type: time_table
@@ -62,10 +62,9 @@
         - 'Client: Chevron'
         - "Manager: <a href='https://www.linkedin.com/in/jaspreet-singh-86bb2319/'>Jaspreet Singh</a>"
         - "Product Owner: <a href='https://www.linkedin.com/in/lshapirosf/'>Leonid Shapiro</a>"
-        - Developed ML model using Azure Virtual Desktop logs.
-        - Built GenAI application converting DDRs into OSDU JSON.
-        - Created data pipelines for 800+ wells using Databricks & Power BI.
-        - Built RDP asset management system using Azure Functions + PowerApps.
+        - Developed supervised ML models on large-scale Azure Virtual Desktop log data to support automated issue detection.
+        - Built an LLM-based information extraction pipeline for converting drilling reports into structured OSDU formats.
+        - Maintained ETL workflows and analytical dashboards for 800+ operational wells.
 
     - title: Machine Learning Intern
       institution: HCLTech
@@ -74,10 +73,8 @@
         - 'Team: Oil & Gas Consulting'
         - 'Client: ExxonMobil'
         - "Manager: <a href='https://www.linkedin.com/in/deepak-bhardwaj-08a0278/'>Deepak Bhardwaj</a>"
-        - Built ML alarm system predicting kicks/blowouts using Random Forest.
-        - Addressed imbalance using SMOTE.
-        - Conducted extensive EDA using seaborn & pandas.
-        - Contributed to patent-filed data labelling mechanism.
+        - Built a Machine learning-based alarm system for detecting kicks and blowouts using the Equinor Volve dataset.
+        - Designed a Daily Drilling Reports based labeling framework with feature engineering, preprocessing, and class-imbalance correction, which later formed the basis of a filed patent.
 
 - title: Technical Skills
   type: list
@@ -87,14 +84,20 @@
     - "<u>Dev Tools:</u> Git, Bash, Powershell, Docker, Postman, Linux, Azure, Anaconda, PowerBI, R Studio, STATA"
     - "<u>Libraries:</u> matplotlib, seaborn, pandas, NumPy, statsmodels, NLTK, OpenCV, Plotly, spaCy, scikit-learn"
 
-- title: Honors and Awards
-  type: list
+- title: Achievements
+  type: nested_list
   contents:
-    - "Top 10 percentile, Univ.AI Data Science Hackathon (AIR 96)."
-    - "SPE IIT (ISM) Editorial Head — 2022 Student Chapter Excellence Award."
-    - "Bronze medal, Otto Group Product Classification Kaggle Competition."
-    - "2nd (mono-act director) & 5th (stage play director), InterIIT Cultural Meet 2022."
-    - "MCM Scholarship, IIT (ISM) Dhanbad."
+    - title: Scholastic 
+      items:
+        - "Top 10% (AIR 96) in the Univ.AI Data Science Hackathon."
+        - "Bronze Medal, Otto Group Product Classification Kaggle Competition."
+        - "Summer Undergraduate Research Fellowship, Department of Computer Science, IIT (ISM) Dhanbad."
+        - "Merit-cum-Means (MCM) Scholarship recipient for all eight semesters."
+     - title: Extracurricular
+      items:
+        - "Served as Editorial Head, SPE IIT (ISM) Student Chapter; contributed to winning the 2022 Student Chapter Excellence Award (top 20% globally)."
+        - "Placed 2nd (mono-act director) and 5th (stage play director) at InterIIT Cultural Meet 2022 among 23 participating IITs." 
+        - "Represented District Cricket Team Banda in the Under-17 Ranji Trophy (2016)."
 
 - title: Conferences & Volunteering
   type: nested_list
@@ -103,3 +106,7 @@
       items:
         - "Jan 2025: Attended and volunteered at <a href='https://connect.informs.org/iss/blogs/ramnath-chellappa/2024/09/16/code2024-25'>CODE: Conference on the Digital Economy</a>, ISB."
         - "Dec 2024: Attended <a href='https://www.nber.org/conferences/information-and-competition-digital-economy-fall-2024'>ISB–NBER Conference on Information and Competition in the Digital Economy</a>."
+     - title: Volunteer Work
+      items:
+        - "Teaching Assistant, SPE IIT (ISM) Student Chapter, 2021-22: Designed and taught a short course on Machine Learning and Python for first-year undergraduates."
+        - "Volunteer, Kartavya NGO, 2020-22: Provided mathematics academic support to 9th–10th grade students through structured weekly sessions" 
