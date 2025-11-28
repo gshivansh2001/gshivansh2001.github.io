@@ -93,4 +93,7 @@ ninja.data = [{
           section: "News",},{id: "news-attended-and-volunteered-for-isb-poms-workshop-2025-indian-school-of-business-hyderabad",
           title: 'Attended and volunteered for ISB POMS Workshop 2025, Indian School of Business, Hyderabad....',
           description: "",
+          section: "News",},{id: "news-attended-isb-deakin-symposium-on-marketing-technology-amp-amp-ai-indian-school-of-business-hyderabad",
+          title: 'Attended ISB - Deakin Symposium on Marketing Technology &amp;amp;amp; AI, Indian School of...',
+          description: "",
           section: "News",},];
