@@ -90,7 +90,7 @@ ninja.data = [{
           section: "News",},{id: "news-attended-and-volunteered-at-code-conference-on-the-digital-economy-varanasi",
           title: 'Attended and volunteered at CODE: Conference on the Digital Economy, Varanasi.',
           description: "",
-          section: "News",},{id: "news-attending-and-volunteering-for-isb-poms-workshop-2025-indian-school-of-business-hyderabad",
-          title: 'Attending and volunteering for ISB POMS Workshop 2025, Indian School of Business, Hyderabad....',
+          section: "News",},{id: "news-attended-and-volunteered-for-isb-poms-workshop-2025-indian-school-of-business-hyderabad",
+          title: 'Attended and volunteered for ISB POMS Workshop 2025, Indian School of Business, Hyderabad....',
           description: "",
           section: "News",},];
