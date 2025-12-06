@@ -5,7 +5,6 @@ description: Understanding how covariates affect synthetic difference-in-differe
 date: 2025-02-14
 ---
 
-## TL;DR — The Short Intuition
 When you add covariates to **Synthetic Difference-in-Differences (SDID)**, you are *not* estimating coefficients for those covariates like in OLS. Instead, SDID uses covariates to **improve the construction of the synthetic counterfactual** by residualizing outcomes or projecting covariates before choosing weights. The inclusion of covariates changes the **weights** (ω and λ), which typically reduces bias and variance.
 
 ---
