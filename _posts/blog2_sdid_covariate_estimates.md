@@ -1,0 +1,137 @@
+---
+layout: post
+title: How to Obtain and Interpret Covariate Estimates in SDID Using Stata
+description: Understanding what SDID reports for covariates and how to correctly recover coefficients and p-values
+date: 2025-02-14
+---
+
+While working on an SDID specification for a recent project, I encountered an unexpected problem: the covariate coefficients that Stata reports inside `e(beta)` after running `sdid` did not match the coefficients I obtained from a corresponding fixed-effects regression using `reghdfe`. The ATT estimates were stable, but the covariate estimates were not only numerically different—they sometimes differed by orders of magnitude.
+
+This led me into a deeper investigation, and as I soon realized, the issue is not a bug or a computational error. Instead, it arises from a fundamental feature of the SDID estimator and the way Stata implements covariate adjustment. After reviewing the SDID documentation, reading the Statalist discussions, and experimenting with both the `optimized` and `projected` methods, the logic behind these discrepancies finally became clear. This post summarizes what I learned.
+
+---
+
+## The Initial Puzzle: Why Do SDID and reghdfe Give Different Covariate Coefficients?
+
+To illustrate the issue, consider the following SDID command, taken from an example posted by Wenhan Yan on Statalist (2024):
+
+```stata
+sdid l_wo state date treat, vce(bootstrap) method(sdid) ///
+     covariates(l_pop l_black l_unemp l_inc l_HS l_college lgdp, optimized)
+```
+
+Immediately after running SDID, we can list the covariate coefficients:
+
+```stata
+mat list e(beta)
+```
+
+The output contains a vector of coefficients that SDID used during the residualization step. However, when Wenhan attempted to replicate these coefficients using a standard two-way fixed effects regression on the never-treated units:
+
+```stata
+egen W = mean(treat), by(state)
+
+reghdfe l_wo l_pop l_black l_unemp l_inc l_HS l_college lgdp ///
+        if W == 0, absorb(state date) cluster(state)
+```
+
+the two sets of coefficients did not align at all. The differences were so pronounced that they could not be attributed to simple sampling noise.
+
+---
+
+## Why SDID’s Covariate Coefficients Behave Differently
+
+Covariates in SDID are not estimated for inference. Their purpose is **solely to residualize the outcome variable** so that the synthetic control is constructed using the portion of the outcome that is not explained by observed covariates. This is fundamentally different from regression, where covariates are explanatory variables whose coefficients are interpreted.
+
+SDID cleans the outcome using:
+
+$$
+\tilde Y_{it} = Y_{it} - X_{it} \hat\beta
+$$
+
+SDID then finds the weights using $\tilde Y_{it}$, not the original outcome. The point of estimating $\hat\beta$ is therefore to remove predictable variation before applying the SDID optimization. The way SDID computes $\hat\beta$ depends entirely on whether the user selects `optimized` or `projected`.
+
+---
+
+## Optimized vs. Projected: Two Very Different Residualization Strategies
+
+### **1. Optimized**
+Stata estimates $\hat\beta$ using *all* units, treated and untreated:
+
+- Treated dynamics contaminate the regression.
+- Imbalances flow directly into $\hat\beta$.
+- The coefficients in `e(beta)` **cannot** be replicated by any regression.
+
+This explains why optimized output deviates sharply from a fixed-effects regression.
+
+### **2. Projected**
+The projected method estimates $\hat\beta$ **only using never-treated units**:
+
+- The logic mirrors that covariates should reflect untreated outcome behavior.
+- The coefficients inside `e(beta)` **match exactly** with a regression on untreated units.
+- Standard errors and p-values can be obtained via `reghdfe`.
+
+This aligns with Daniel PV’s guidance in multiple Statalist threads.
+
+---
+
+## How to Correctly Recover Covariate Coefficients and Standard Errors
+
+### **Step 1: Identify units that are never treated**
+
+```stata
+egen W = mean(treated), by(state)
+```
+
+### **Step 2: Run a regression only on those units**
+
+```stata
+reghdfe outcome covariates if W == 0, absorb(state date) cluster(state)
+```
+
+This regression gives valid coefficient estimates, standard errors, and p-values **only when SDID uses the projected method**.
+
+---
+
+## Why Covariate p-values Are Often Insignificant
+
+Users in both Statalist threads noticed that covariate p-values are nearly always insignificant. This is expected because:
+
+- Covariates are not part of the causal effect,
+- They serve only to improve balance,
+- Their coefficients are not meant to be interpreted.
+
+Insignificance does not signal a poor model.
+
+---
+
+## Which Method Should You Use?
+
+### **Projected (recommended)**
+- Coefficients are interpretable.
+- Standard errors can be recovered.
+- Theoretical justification is clearer.
+
+### **Optimized**
+- Works for ATT estimation.
+- Covariate coefficients are not interpretable or replicable.
+- Use only if covariate inference is unnecessary.
+
+---
+
+## Final Thoughts
+
+My initial confusion comparing SDID and reghdfe outputs ended up being an instructive reminder that SDID handles covariates very differently from standard regression models. Covariates in SDID belong to the preprocessing logic—not to the final effect estimation step. Once this distinction became clear, the behavior of optimized and projected methods made sense, and obtaining valid standard errors became straightforward.
+
+---
+
+## References
+
+- Statalist thread (2024): *SDID: Obtain the coefficients and Std. Err. of covariates*  
+  https://www.statalist.org/forums/forum/general-stata-discussion/general/1758770-sdid-obtain-the-coefficients-and-std-err-of-covariates
+
+- Statalist thread (2023): *How to discern coefficients and their p-values of covariates using sdid*  
+  https://www.statalist.org/forums/forum/general-stata-discussion/general/1718121-how-to-discern-the-coefficients-and-their-p-values-of-covariates-using-sdid
+
+- Arkhangelsky et al. (2021). *Synthetic Difference-in-Differences.*  
+- Hirshberg & Klosin (2024). *Synthetic Differences-in-Differences with Covariates.*
