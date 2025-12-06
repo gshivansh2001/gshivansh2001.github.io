@@ -48,17 +48,6 @@ ninja.data = [{
             window.location.href = "/blog/2025/sdidI/";
           
         },
-      },{id: "post-how-sdid-works-when-covariates-are-used-in-stata",
-        
-          title: "How SDID Works When Covariates Are Used in Stata",
-        
-        description: "Understanding how covariates affect synthetic difference-in-differences",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2025/dp/";
-          
-        },
       },{id: "post-proabilistic-matrix-factorization",
         
           title: "Proabilistic Matrix Factorization",
