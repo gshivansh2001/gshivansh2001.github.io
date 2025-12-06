@@ -1,144 +1,123 @@
 ---
 layout: post
-title: How SDID Works When Covariates Are Used in Stata
-description: Understanding how covariates affect synthetic difference-in-differences
+title: What Really Happens When You Add Covariates to SDID in Stata
+description: A researcher’s walkthrough on understanding covariates in synthetic difference-in-differences
 date: 2025-02-14
 ---
 
-When you add covariates to **Synthetic Difference-in-Differences (SDID)**, you are *not* estimating coefficients for those covariates like in OLS. Instead, SDID uses covariates to **improve the construction of the synthetic counterfactual** by residualizing outcomes or projecting covariates before choosing weights. The inclusion of covariates changes the **weights** (ω and λ), which typically reduces bias and variance.
+A few days ago, while working on an analysis for a project, I found myself stuck on a deceptively simple question: **what exactly happens when we add covariates to a Synthetic Difference-in-Differences (SDID) model in Stata?** I had used SDID before, I had added covariates before, but this was the first time I *actually* needed to understand how SDID treated them beneath the hood. The more I looked into it, the clearer it became that SDID handles covariates in a way that is *very* different from OLS or fixed-effects regressions.
+
+So I spent a couple of days reading the literature, digging through the Stata help files, and scrolling through Statalist threads where researchers faced the same questions. This post is a summary of that journey — written the way I wish I had found it when I first went searching.
+
+---
+#### Why This Problem Caught My Attention
+
+One reason I found this problem particularly interesting is that covariates in SDID behave very differently from how we use controls in standard regression frameworks like `reghdfe` or `xtreg`. In a typical regression, covariates enter the model as explanatory variables whose coefficients we interpret, test, and often use to reason about underlying mechanisms. The regression framework is built around the idea that these coefficients have a meaning of their own.
+
+In SDID, however, covariates serve an entirely different purpose. They are not part of the causal narrative, and their coefficients are not designed to be interpreted. Instead, covariates act as tools for *cleaning* the outcome variable. SDID uses them to strip away predictable variation so that the remaining residual trends are more comparable between treated and control units. The goal is not to estimate how covariates affect the outcome, but to improve the quality of the synthetic counterfactual.
+
+Realizing this difference was helpful because it forced me to rethink what covariates *do* in SDID. They are not contributors to the final ATT estimate; they are part of a preprocessing step that shapes the data SDID uses. Once I internalized that SDID treats covariates as adjustment mechanisms rather than explanatory variables, the rest of the method — and the behavior of `optimized` vs. `projected` — became much clearer.
 
 ---
 
-## 1. How Covariates Are Incorporated
 
-### **A. Residualized Approach (default in many implementations)**
-1. Regress the outcome \( Y_{it} \) on covariates \( X_{it} \).
-2. Compute residuals:  
-   \[
-   \tilde Y_{it} = Y_{it} - X_{it} \hat\beta
-   \]
-3. Run SDID on \( \tilde Y_{it} \).
 
-### **B. Projected Approach**
-Estimate covariate effects **using only control units**, then compute residuals and run SDID. This is more stable when covariates are noisy or correlated with latent trends.
+When we add covariates to **Synthetic Difference-in-Differences (SDID)**, the intention is not to estimate the causal effect of those covariates. In fact, SDID does not even try to report meaningful covariate coefficients. Instead, covariates are used to **improve the construction of the synthetic control**. They help clean the outcome by explaining predictable variation so that the SDID weights — the unit weights $\omega$ and the time weights $\lambda$ — are chosen using outcomes that have been “purified” of covariate-driven noise.
 
-### **C. Joint Estimation (SDIDC)**
-A newer method that estimates weights and covariate coefficients together. Useful when covariates and unobserved trends are correlated.
+This adjustment happens before the SDID optimization step. And depending on how we residualize the outcome, the process can behave quite differently.
 
 ---
 
-## 2. What Changes Inside SDID When Covariates Are Added
-SDID selects weights by minimizing:
-- Unit imbalance
-- Time imbalance
-- Regularization penalties
+#### The Residualized Approach
 
-When covariates are included, SDID performs its optimization on **residualized outcomes**, so:
+My first stop was the standard, “optimized” method in Stata. The logic behind it is straightforward. Before SDID starts balancing treated and control units, it *first* regresses the outcome on the covariates:
 
-- Unit weights (ω) change  
-- Time weights (λ) change  
-- The ATT estimate may change  
-- No covariate coefficients are reported
+$$
+\tilde Y_{it} = Y_{it} - X_{it}\hat\beta
+$$
 
-If you need β estimates, you must compute them outside SDID or use a joint-estimation method.
+and then uses  $\tilde Y_{it}\$ — not the raw outcomes — to compute the synthetic weights. This is reminiscent of partialling out covariates before matching. In practice, the procedure works well when covariates behave similarly for treated and control units, but can struggle when they differ sharply. Because the regression that obtains $\hat\beta\$ uses *all* units (treated and untreated), any imbalance between the two groups flows into the residualization step. As a result, this version of SDID often produces covariate coefficients that cannot be replicated by any standard regression.
 
 ---
 
-## 3. Stata `sdid` Options You Should Know
+#### The Projected Approach
 
-### **`covariates(varlist, optimized)`**
-Residualizes using all units. Good for well-behaved covariates.
+Then I discovered the “projected” method — a quieter option hidden in the Stata help file but discussed extensively on Statalist. This method computes $\hat\beta\$ using **only the untreated units**. The idea is elegant: if covariates are supposed to explain untreated outcome variation, then only untreated units should inform their relationship with the outcome. Once these coefficients are estimated, residuals are computed and SDID proceeds normally.
 
-### **`covariates(varlist, projected)`**
-Residualizes using only untreated units. Often more robust.
+What surprised me is how different the results can be. In my own replications — and in several Statalist posts — the projected method produced covariate coefficients that aligned perfectly with a simple fixed-effects regression on the untreated sample. The optimized method did not.
 
-### **`unstandardized`**
-By default, covariates are standardized. Use this option cautiously.
-
-### **`returnweights generate(prefix)`**
-Stores unit and time weights in your dataset.
-
-### **`vce(bootstrap | placebo | jackknife)`**
-Inference options.  
-Choose based on number of treated units and sample size.
+At that point, the difference made sense: the two methods are solving two different problems. One residualizes using information from *everyone*; the other uses only *controls*, preserving the logic of a synthetic control.
 
 ---
 
-## 4. Minimal Practical Workflow in Stata
+#### A Note on Joint Estimation (SDIDC)
+
+During this process, I also came across a newer method — SDIDC by Hirshberg and Klosin — which estimates the covariate coefficients and the SDID weights jointly rather than separately. This approach avoids some of the pitfalls of residualizing first and weighting later. It’s still new, but it’s a promising direction, especially when covariates strongly overlap with latent trends.
+
+---
+
+#### What Actually Changes When Covariates Enter the Model
+
+One of the most important insights I gained is that **covariates do not change the structure of the SDID estimator itself**. The minimization problem is the same. What changes are the data fed into it. Once we residualize the outcome, SDID computes weights based on $\tilde Y_{it}\$, so the resulting $\omega$ and $\lambda$ often look different from the no-covariate case. Consequently, the ATT estimate also shifts.
+
+Stata stores the covariate coefficients it used inside `e(beta)`, but these are not causal effects and should not be interpreted as such. In fact, most covariates end up statistically insignificant — even when the ATT remains highly significant — because significance was never the goal. The covariates are there to improve balance, not to explain outcomes in a causal sense.
+
+---
+
+#### Using Covariates in Stata: What I Learned
+
+I went back to Stata and experimented with the two approaches. The commands looked something like this:
 
 ```stata
-* Baseline SDID without covariates
-sdid outcome unitid time treated, vce(bootstrap) reps(200)
-
-* SDID with optimized covariates
-sdid outcome unitid time treated, vce(bootstrap) reps(200) ///
-    covariates(age income x1 x2, optimized) ///
-    returnweights generate(w_) graph
-
-* SDID with projected covariates
-sdid outcome unitid time treated, vce(bootstrap) reps(200) ///
-    covariates(age income x1 x2, projected) ///
-    returnweights generate(w_) graph
-
-* Inspect weights
-sum w_omega*
-sum w_lambda*
-
-twoway (line outcome time if treated==1, sort) ///
-       (line outcome time [fw=w_omega1] if treated==0, sort), ///
-       title("Treated vs Synthetic Control")
+sdid outcome unitid time treated, covariates(age income x1 x2, optimized)
 ```
 
----
+and
 
-## 5. Diagnosing Whether Covariates Helped
+```stata
+sdid outcome unitid time treated, covariates(age income x1 x2, projected)
+```
 
-### **1. Pre-treatment balance**
-Compute weighted pre-treatment covariate means.
+The ATT estimates were reasonably close, but the covariate coefficients were completely different — and only the projected version matched the coefficients from:
 
-### **2. Trend plots**
-Plot treated vs synthetic control trends.
+```stata
+egen W = mean(treated), by(unitid)
 
-### **3. Compare optimized vs projected**
-If they give very different ATTs, inspect covariate behavior.
+reghdfe outcome age income x1 x2 if W == 0, absorb(unitid time) cluster(unitid)
+```
 
-### **4. Check regularization warnings**
-Adjust `zeta_omega()` or `zeta_lambda()` only if necessary.
-
----
-
-## 6. Practical Pitfalls
-
-- Do **not** include post-treatment covariates.  
-- Avoid perfect multicollinearity in covariates.  
-- Adding too many covariates can destabilize weights.  
-- If you need β coefficients, SDID will *not* report them.
+Once I understood the logic, the mismatch stopped bothering me. Optimized and projected are not competing versions of the same method; they are solving different residualization problems.
 
 ---
 
-## 7. Worked Example (Conceptual)
+#### Do Covariates Actually Help?
 
-Suppose:
-- `outcome` = student test score  
-- Treatment begins in 2015  
-- Covariates: `income`, `school_resources`
+In my own analysis, adding covariates helped reduce noise in pre-treatment trends for the treated units. But it’s not guaranteed. The only reliable way to check is to look at:
 
-Residualizing removes predictable variation from covariates so SDID focuses only on matching **unexplained** pre-treatment trends. If covariates differ sharply across treated and controls, `projected` is safer.
+1. **Pre-treatment fit** — do the synthetic and treated paths align more closely?
+2. **Weight stability** — do unit weights become more reasonable?
+3. **Robustness across residualization methods** — if optimized and projected produce wildly different ATTs, it may signal an identification issue.
+4. **Warnings from the optimization** — SDID sometimes struggles to find weights when covariates introduce multicollinearity.
 
----
-
-## 8. References for Further Reading
-
-- Arkhangelsky et al. (2021). *Synthetic Difference-in-Differences*.  
-- Stata `sdid` Manual.  
-- Hirshberg & Klosin (2024). *Synthetic Differences-in-Differences with Covariates (SDIDC)*.
+Like everything else in applied econometrics, covariates help when they help — and sometimes they don’t.
 
 ---
 
-## Next Post: Blog 2
-Blog 2 will cover:
+#### A Small Conceptual Example
 
-- How to extract covariate effects  
-- How to interpret them  
-- How to evaluate covariate balance formally  
-- When projected SDID or joint estimation is preferable
+To build intuition, imagine studying how a policy affects student test scores. Covariates like `income` or `school_resources` explain part of the variation in scores that has nothing to do with the treatment. By removing this predictable variation first, SDID focuses only on aligning the remaining, unexplained trends across treated and control units. If treated schools differ systematically in those covariates, the projected method tends to produce more stable residuals, which leads to more reliable weights.
+
+---
+
+#### Further Reading
+
+A few resources I found especially helpful:
+
+- <a href="https://www.aeaweb.org/articles?id=10.1257/aer.20190159">Arkhangelsky et al. (2021), *Synthetic Difference-in-Differences*</a>
+- Stata’s official documentation for `sdid`
+- <a href="https://klosins.github.io/Hirshberg_Klosin_SDIDC.pdf">Hirshberg & Klosin (2024), *Synthetic Differences-in-Differences with Covariates*</a>
+  
+
+---
+
+If you’re working on SDID analyses of your own, especially with covariates, I hope this saves you a few hours of searching. For me, the trick was simply realizing that covariates in SDID aren't part of the causal story — they’re part of the *cleaning* story. Once that clicked, everything else became much clearer.
