@@ -37,7 +37,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/books/";
           },
-        },{id: "post-proabilistic-matrix-factorization",
+        },{id: "post-how-sdid-works-when-covariates-are-used-in-stata",
+        
+          title: "How SDID Works When Covariates Are Used in Stata",
+        
+        description: "Understanding how covariates affect synthetic difference-in-differences",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/dp/";
+          
+        },
+      },{id: "post-proabilistic-matrix-factorization",
         
           title: "Proabilistic Matrix Factorization",
         
@@ -68,17 +79,6 @@ ninja.data = [{
         handler: () => {
           
             window.location.href = "/blog/2023/rdp/";
-          
-        },
-      },{id: "post-differential-privacy",
-        
-          title: "Differential Privacy",
-        
-        description: "What is it and why is it needed",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2023/dp/";
           
         },
       },{id: "news-joined-the-sritne-team-at-isb-and-started-working-as-a-pre-doctoral-researcher-in-the-information-systems-department",
