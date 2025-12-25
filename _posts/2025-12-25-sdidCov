@@ -2,7 +2,7 @@
 layout: post
 title: How to Obtain and Interpret Covariate Estimates in SDID Using Stata
 description: Understanding what SDID reports for covariates and how to correctly recover coefficients and p-values
-date: 2025-02-14
+date: 2025-12-25
 ---
 
 While working on an SDID specification for a recent project, I encountered an unexpected problem: the covariate coefficients that Stata reports inside `e(beta)` after running `sdid` did not match the coefficients I obtained from a corresponding fixed-effects regression using `reghdfe`. The ATT estimates were stable, but the covariate estimates were not only numerically different—they sometimes differed by orders of magnitude.
