@@ -37,7 +37,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/books/";
           },
-        },{id: "post-what-really-happens-when-you-add-covariates-to-sdid",
+        },{id: "post-how-to-obtain-and-interpret-covariate-estimates-in-sdid-using-stata",
+        
+          title: "How to Obtain and Interpret Covariate Estimates in SDID Using Stata",
+        
+        description: "Understanding what SDID reports for covariates and how to correctly recover coefficients and p-values",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/sdidcov/";
+          
+        },
+      },{id: "post-what-really-happens-when-you-add-covariates-to-sdid",
         
           title: "What Really Happens When You Add Covariates to SDID",
         
