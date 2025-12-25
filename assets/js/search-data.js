@@ -37,11 +37,11 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/books/";
           },
-        },{id: "post-what-really-happens-when-you-add-covariates-to-sdid-in-stata",
+        },{id: "post-what-really-happens-when-you-add-covariates-to-sdid",
         
-          title: "What Really Happens When You Add Covariates to SDID in Stata",
+          title: "What Really Happens When You Add Covariates to SDID",
         
-        description: "A researcher’s walkthrough on understanding covariates in synthetic difference-in-differences",
+        description: "An early researcher’s walkthrough on understanding covariates in synthetic difference-in-differences",
         section: "Posts",
         handler: () => {
           
