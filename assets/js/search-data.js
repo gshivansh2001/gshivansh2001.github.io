@@ -107,4 +107,7 @@ ninja.data = [{
           section: "News",},{id: "news-attended-isb-deakin-symposium-on-marketing-technology-amp-amp-ai-indian-school-of-business-hyderabad",
           title: 'Attended ISB - Deakin Symposium on Marketing Technology &amp;amp;amp; AI, Indian School of...',
           description: "",
+          section: "News",},{id: "news-attended-nber-conference-on-household-finance-across-the-lifecycle-fall-2025-indian-school-of-business-hyderabad",
+          title: 'Attended NBER Conference on Household Finance across the Lifecycle, Fall 2025, Indian School...',
+          description: "",
           section: "News",},];
