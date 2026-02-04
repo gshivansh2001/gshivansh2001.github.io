@@ -26,14 +26,15 @@ latest_posts:
 
 <h2>About</h2>
 
-Hi! I'm Shivansh, a Pre-Doctoral Research Associate working with <a href="https://www.isb.edu/faculty-and-research/faculty-directory/vasundhara-sharma">Professor Vasundhara Sharma</a>, at <a href="https://www.isb.edu/faculty-and-research/srini-raju-centre-for-it-and-the-networked-economy">SRITNE</a> lab in the Information Systems Department. My work broadly lies at the intersection of digital platforms, human behavior, and algorithmic governance.
+Hi! I'm Shivansh, a Pre-Doctoral Research Associate working with <a href="https://www.isb.edu/faculty-and-research/faculty-directory/vasundhara-sharma">Professor Vasundhara Sharma</a>, at <a href="https://www.isb.edu/faculty-and-research/srini-raju-centre-for-it-and-the-networked-economy">SRITNE</a> lab in the Information Systems Department. 
 
-<p style="text-align: justify;"> <b>Prior Experiences</b>: Before joining ISB, I worked as a Data Scientist at HCLTech, developing machine-learning and analytics solutions for Chevron and ExxonMobil.  My work focused on creating and optimising data ingestion pipelines and building predictive models for asset management and maintenance analytics. This hands-on industry experience deepened my interest in how data-driven technologies impact organisations and people, ultimately leading me to transition into Information Systems and computational social science research. I hold a B.Tech in Petroleum Engineering from IIT (ISM) Dhanbad.
-</p>
-
-<h3>Research Interests</h3>
 <p style="text-align: justify;">
-I am interested in how digital platforms shape behavior, incentives, and social outcomes. Broadly, I study platform governance, design, reputation systems, and algorithmic bias using large-scale data and computational methods. <br> To learn more about my interests and recent explorations, please visit my <a href="https://gshivansh2001.github.io/publications/">Research</a> page. </p>
+I work on questions at the intersection of information systems, digital platforms, and algorithmic governance, with a focus on how AI systems and platform policies shape behavior, incentives, and evaluation outcomes. In particular, I study how algorithmic tools, disclosure regimes, and social signals embedded in platforms influence productivity, bias, and decision-making in organizational and market settings.
+
+At ISB, my work uses large-scale observational data from online platforms to examine the unintended consequences of platform design and governance choices. Much of my research involves combining computational methods with institutional and policy variation to study how users respond to changes in algorithms, disclosure norms, and platform rules. <br> To learn more, please visit <a href="https://gshivansh2001.github.io/publications/">Research</a> page. </p>
+
+
+<p style="text-align: justify;"> <b>Prior Experiences</b>: Before joining ISB, I worked as a Data Scientist at HCLTech, developing machine-learning and analytics solutions for Chevron and ExxonMobil.  My work focused on creating and optimising data ingestion pipelines and building predictive models for asset management and maintenance analytics. This experience deepened my interest in how data-driven technologies impact organisations and people, ultimately leading me to transition into Information Systems and computational social science research.</p>
 
 <p><b>Looking Ahead:</b> I am exploring PhD opportunities in Information Systems and related fields. Please feel free to reach out!</p>
 
