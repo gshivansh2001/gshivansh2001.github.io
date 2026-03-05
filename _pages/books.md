@@ -53,8 +53,8 @@ Working on the film was a collaborative experience that deepened my appreciation
 
 <div class="photo-gallery">
   <img src="{{ '/assets/img/acting1.png' | relative_url }}" alt="Acting picture 1" />
-  <img src="{{ '/assets/img/acting1.png' | relative_url }}" alt="movie1" />
-  <img src="{{ '/assets/img/acting1.png' | relative_url }}" alt="movie2" />
+  <img src="{{ '/assets/img/movie1.png' | relative_url }}" alt="movie1" />
+  <img src="{{ '/assets/img/movie2.png' | relative_url }}" alt="movie2" />
   <img src="{{ '/assets/img/acting2.png' | relative_url }}" alt="Acting picture 2" />
   <img src="{{ '/assets/img/acting3.png' | relative_url }}" alt="Acting picture 3" />
   <img src="{{ '/assets/img/acting4.jpg' | relative_url }}" alt="Acting picture 4" />
