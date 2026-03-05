@@ -18,8 +18,6 @@ I share these cinematic journeys and my own creative explorations on my Instagra
 where I celebrate the magic of cinema from my personal perspective — not reviews, but reflections on the emotions and ideas films leave behind.
 </p>
 
-<h4>Film Work</h4>
-
 <p style="text-align: justify">
 I also had the opportunity to contribute to the independent film 
 <a href="https://www.imdb.com/title/tt28769460/" target="_blank"><strong>Nukkad Natak</strong></a> (2023), 
