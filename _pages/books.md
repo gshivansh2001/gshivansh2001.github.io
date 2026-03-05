@@ -8,14 +8,23 @@ collection: books
 ---
 
 <p style="text-align: justify">
-Outside academia, I find expression, creativity, and connection through cinema, acting, and directing. Storytelling lets me appreciate different perspectives, delve into human emotions, and explore the magic that resonates across borders and time.
+Outside academia, I find expression, creativity, and connection through cinema, acting, and directing. Storytelling allows me to appreciate different perspectives, explore human emotions, and engage with narratives that resonate across cultures and time.
 </p>
 
 <p style="text-align: justify">
-I share these cinematic journeys and my own creative endeavors on my Instagram page 
+I share these cinematic journeys and my own creative explorations on my Instagram page 
 <a href="https://www.instagram.com/the.cinema.scipted/" target="_blank">
 <strong>@the.cinema.scipted</strong></a>, 
-where I celebrate the magic of cinema from my own point of view — not reviews, but a reflection of its impact on me.
+where I celebrate the magic of cinema from my personal perspective — not reviews, but reflections on the emotions and ideas films leave behind.
+</p>
+
+<h4>Film Work</h4>
+
+<p style="text-align: justify">
+I also had the opportunity to contribute to the independent film 
+<a href="https://www.imdb.com/title/tt28769460/" target="_blank"><strong>Nukkad Natak</strong></a> (2023), 
+where I appeared in a small acting role and contributed to parts of the creative writing process. 
+Working on the film was a collaborative experience that deepened my appreciation for storytelling and performance.
 </p>
 
 <h4>Some Highlights</h4>
@@ -44,6 +53,8 @@ where I celebrate the magic of cinema from my own point of view — not reviews,
 
 <div class="photo-gallery">
   <img src="{{ '/assets/img/acting1.png' | relative_url }}" alt="Acting picture 1" />
+  <img src="{{ '/assets/img/acting1.png' | relative_url }}" alt="movie1" />
+  <img src="{{ '/assets/img/acting1.png' | relative_url }}" alt="movie2" />
   <img src="{{ '/assets/img/acting2.png' | relative_url }}" alt="Acting picture 2" />
   <img src="{{ '/assets/img/acting3.png' | relative_url }}" alt="Acting picture 3" />
   <img src="{{ '/assets/img/acting4.jpg' | relative_url }}" alt="Acting picture 4" />
