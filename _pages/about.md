@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: "<a href='https://www.isb.edu/'>Indian School of Business</a>"
+subtitle: "Pre-Doctoral Research Associate at <a href='https://www.isb.edu/'>Indian School of Business</a>"
 
 profile:
   align: right
@@ -24,7 +24,7 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Hi! I'm Shivansh, a Pre-Doctoral Research Associate working with <a href="https://www.isb.edu/faculty-and-research/faculty-directory/vasundhara-sharma">Professor Vasundhara Sharma</a> at the <a href="https://www.isb.edu/faculty-and-research/srini-raju-centre-for-it-and-the-networked-economy">SRITNE</a> lab in the Information Systems Department. 
+Hi! I'm Shivansh, I'm working with <a href="https://www.isb.edu/faculty-and-research/faculty-directory/vasundhara-sharma">Professor Vasundhara Sharma</a> at the <a href="https://www.isb.edu/faculty-and-research/srini-raju-centre-for-it-and-the-networked-economy">SRITNE</a> lab in the Information Systems Department. 
 
 Currently, I study the consequences, both intended and unintended, of information design and governance choices on digital platforms. Using large-scale observational data from online platforms, my work examines how users respond to changes in platform policies, disclosure regimes, and the broader digital information environment. Methodologically, my research combines computational approaches with econometric methods and leverages institutional and policy variation to identify behavioral responses of different platform participants, including creators and consumers, as well as buyers and sellers.
 
