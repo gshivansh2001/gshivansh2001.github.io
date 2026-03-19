@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: "Pre-Doctoral Research Associate at <a href='https://www.isb.edu/'>Indian School of Business</a>"
+subtitle: "<a href='https://www.isb.edu/'>Indian School of Business</a>"
 
 profile:
   align: right
