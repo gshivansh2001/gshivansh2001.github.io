@@ -1,56 +1,20 @@
 ---
 layout: page
-permalink: /publications/
+permalink: /research/
 title: Research
-description:
+description: My research focuses on understanding how digital platforms shape user behavior, economic incentives, and societal outcomes. I am particularly interested in platform governance, design, reputation mechanisms, and algorithmic fairness. I aim to uncover structural inequities using large-scale data and computational methods to inform the responsible design of digital systems.
 nav: true
-nav_order: 1
+nav_order: 2
 ---
 
-<h4> Research Interests </h4>
-<p style="text-align: justify;">
-My research focuses on understanding how digital platforms shape user behavior, economic incentives, and societal outcomes. I am particularly interested in platform governance, design, reputation mechanisms, and algorithmic fairness. I aim to uncover structural inequities using large-scale data and computational methods to inform the responsible design of digital systems.
-</p>
+<!-- _pages/publications.md -->
 
----
+<!-- Bibsearch Feature -->
 
-## 📝 Work in Progress
+{% include bib_search.liquid %}
 
-- **The Generative AI Dilemma: Enhancing Productivity while Managing Technical Debt in Open Source Development**  
-with <a href="https://www.isb.edu/faculty-and-research/faculty-directory/vasundhara-sharma">Prof. Vasundhara Sharma</a>, <a href="https://askaranam.github.io/">Prof. Aditya Karanam</a>  
+<div class="publications">
 
-- **Effects of Social Movements on Student Bias in Faculty Evaluations**  
-with <a href="https://www.isb.edu/faculty-and-research/faculty-directory/vasundhara-sharma">Prof. Vasundhara Sharma</a>, <a href="https://www.isb.edu/faculty-and-research/faculty-directory/deepa-mani">Prof. Deepa Mani</a>, <a href="https://askaranam.github.io/">Prof. Aditya Karanam</a>
+{% bibliography %}
 
-- **Examining Effects of AI Disclosure on Early-Stage Ventures**  
-with <a href="https://www.isb.edu/faculty-and-research/faculty-directory/vasundhara-sharma">Prof. Vasundhara Sharma</a>, <a href="https://www.linkedin.com/in/aketi-gayatri-790a20147/"> Aketi Gayatri</a>
-
----
-
-## 🔍 Research Assistance
-
-- **Platform Design to Curb Misinformation**  
-  with <a href="https://www.isb.edu/faculty-and-research/faculty-directory/vasundhara-sharma">Prof. Vasundhara Sharma</a>
-
-- **Hidden Ads in YouTube Kids Videos: Effects of Platform Policy Changes**  
-  with <a href="https://www.isb.edu/faculty-and-research/faculty-directory/vasundhara-sharma">Prof. Vasundhara Sharma</a>, <a href="https://www.isb.edu/faculty-and-research/faculty-directory/sumeet-kumar">Prof. Sumeet Kumar</a>
-
-- **Platform Me or Not: Case of Digital Goods**  
-  with <a href="https://www.isb.edu/faculty-and-research/faculty-directory/vasundhara-sharma">Prof. Vasundhara Sharma</a>
-  
----
-
-## 🏛 Conference Papers
-
-**Automated Analysis through Natural Language Processing of DGMS Fatality Reports on Indian Non-Coal Mines**  
-Himanshu Shekhar, <strong>Shivansh Gupta</strong>, Prof. Siddharth Aggarwal
-Presented at the <strong>4th International Conference on Information Systems and Computer Networks</strong>, 2019.
-
----
-
-## 📜 Patent
-
-**Method and System for Classifying and Detecting True Well Control Events During Drilling Operations**  
-<a href="https://www.linkedin.com/in/jaspreet-singh-86bb2319/">Jaspreet Singh</a> , <a href="https://www.linkedin.com/in/somnath-das-22004428/">Somnath Das</a> , <a href="https://www.linkedin.com/in/idris-kagdi-0a2497131/">Idris Kagdi</a> , <strong>Shivansh Gupta</strong>
-Indian Patent Office — Patent No. 202311057956  
-<strong>Status:</strong> Published, Under Review
+</div>
