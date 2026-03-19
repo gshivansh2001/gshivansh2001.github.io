@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: "Pre-Doctoral Research Associate at <a href='https://www.isb.edu/'>Indian School of Business</a> <br> Email: shivansh_gupta@isb.edu"
+subtitle: "Pre-Doctoral Research Associate at <a href='https://www.isb.edu/'>Indian School of Business</a> 
 
 profile:
   align: right
