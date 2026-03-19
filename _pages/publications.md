@@ -7,14 +7,14 @@ nav: true
 nav_order: 2
 ---
 
-<!-- _pages/publications.md -->
+## Work in Progress
 
-<!-- Bibsearch Feature -->
+{% bibliography --query @unpublished %}
 
-{% include bib_search.liquid %}
+## Research Assistance
 
-<div class="publications">
+{% bibliography --query @misc %}
 
-{% bibliography %}
+## Conference Papers
 
-</div>
+{% bibliography --query @inproceedings %}
