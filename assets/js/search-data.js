@@ -37,7 +37,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/books/";
           },
-        },{id: "post-how-to-obtain-and-interpret-covariate-estimates-in-sdid-using-stata",
+        },{id: "post-replicating-quot-male-backlash-and-female-guilt-quot-women-39-s-employment-and-ipv-in-urban-india",
+        
+          title: "Replicating &quot;Male Backlash and Female Guilt&quot; — Women&#39;s Employment and IPV in Urban...",
+        
+        description: "A walk-through of replicating Dhanaraj and Mahambare (2022) using NFHS-4 data, covering probit, bivariate IV probit, and the challenges of instrumenting paid work",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/econA.md/";
+          
+        },
+      },{id: "post-how-to-obtain-and-interpret-covariate-estimates-in-sdid-using-stata",
         
           title: "How to Obtain and Interpret Covariate Estimates in SDID Using Stata",
         
