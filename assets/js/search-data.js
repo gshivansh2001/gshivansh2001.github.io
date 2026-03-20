@@ -59,17 +59,6 @@ ninja.data = [{
             window.location.href = "/blog/2025/sdidI/";
           
         },
-      },{id: "post-rényi-dp",
-        
-          title: "Rényi DP",
-        
-        description: "A natural relaxation of DP",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2023/rdp/";
-          
-        },
       },{id: "news-joined-the-sritne-team-at-isb-and-started-working-as-a-pre-doctoral-researcher-in-the-information-systems-department",
           title: 'Joined the SRITNE team at ISB and started working as a pre-doctoral researcher...',
           description: "",
