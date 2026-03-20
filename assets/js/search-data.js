@@ -59,17 +59,6 @@ ninja.data = [{
             window.location.href = "/blog/2025/sdidI/";
           
         },
-      },{id: "post-variational-calculus",
-        
-          title: "Variational Calculus",
-        
-        description: "A brief introduction",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2023/vc/";
-          
-        },
       },{id: "post-rényi-dp",
         
           title: "Rényi DP",
