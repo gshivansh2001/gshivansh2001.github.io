@@ -59,17 +59,6 @@ ninja.data = [{
             window.location.href = "/blog/2025/sdidI/";
           
         },
-      },{id: "post-proabilistic-matrix-factorization",
-        
-          title: "Proabilistic Matrix Factorization",
-        
-        description: "Scalable solution for large, sparse, and imbalanced data",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2024/pmf/";
-          
-        },
       },{id: "post-variational-calculus",
         
           title: "Variational Calculus",
