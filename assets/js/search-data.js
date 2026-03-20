@@ -9,14 +9,7 @@ ninja.data = [{
     handler: () => {
       window.location.href = "/";
     },
-  },{id: "nav-research",
-          title: "Research",
-          description: "My research focuses on understanding how digital platforms shape user behavior, economic incentives, and societal outcomes. I am particularly interested in platform governance, design, reputation mechanisms, and algorithmic fairness. I aim to uncover structural inequities using large-scale data and computational methods to inform the responsible design of digital systems.",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/research/";
-          },
-        },{id: "nav-cv",
+  },{id: "nav-cv",
           title: "CV",
           description: "Curriculum Vitae",
           section: "Navigation",
