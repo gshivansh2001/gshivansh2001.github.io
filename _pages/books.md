@@ -7,23 +7,7 @@ nav_order: 4
 collection: books
 ---
 
-<p style="text-align: justify">
-Outside academia, I find expression, creativity, and connection through cinema, acting, and directing. Storytelling allows me to appreciate different perspectives, explore human emotions, and engage with narratives that resonate across cultures and time.
-</p>
-
-<p style="text-align: justify">
-I share these cinematic journeys and my own creative explorations on my Instagram page 
-<a href="https://www.instagram.com/the.cinema.scipted/" target="_blank">
-<strong>@the.cinema.scipted</strong></a>, 
-where I celebrate the magic of cinema from my personal perspective — not reviews, but reflections on the emotions and ideas films leave behind.
-</p>
-
-<p style="text-align: justify">
-I also had the opportunity to contribute to the independent film 
-<a href="https://www.imdb.com/title/tt28769460/" target="_blank"><strong>Nukkad Natak</strong></a> (2023), 
-where I appeared in a small acting role and contributed to parts of the creative writing process. 
-Working on the film was a collaborative experience that deepened my appreciation for storytelling and performance.
-</p>
+<p style="text-align: justify"> Beyond research, I am drawn to storytelling through cinema—whether by watching, reflecting, or creating. I share these perspectives on my Instagram page <a href="https://www.instagram.com/the.cinema.scipted/" target="_blank"><strong>@the.cinema.scipted</strong></a>, where I explore the emotions and ideas films leave behind. I also contributed to the independent film <a href="https://www.imdb.com/title/tt28769460/" target="_blank"><strong>Nukkad Natak</strong></a> (2023), now available on <a href="https://www.netflix.com/title/82790150" target="_blank"><strong>Netflix</strong></a>, where I was involved in a small acting role and aspects of creative writing. </p>
 
 <h4>Some Highlights</h4>
 
