@@ -29,7 +29,7 @@ Hi! I'm Shivansh, I'm working with <a href="https://www.isb.edu/faculty-and-rese
 Currently, I study the consequences, both intended and unintended, of information design and governance choices on digital platforms. Using large-scale observational data from online platforms, my work examines how users respond to changes in platform policies, disclosure regimes, and the broader digital information environment. Methodologically, my research combines computational approaches with econometric methods and leverages institutional and policy variation to identify behavioral responses of different platform participants, including creators and consumers, as well as buyers and sellers.
 
 I am interested in understanding how platform design, governance, and information structures shape user behavior, incentives, and perceptions, and how these micro-level responses aggregate to influence organizational and market outcomes. <br>
-To learn more, please visit my <a href="https://gshivansh2001.github.io/publications/">Research</a> page.
+To learn more, please visit my <a href="https://gshivansh2001.github.io/research/">Research</a> page.
 
 <b>Prior Experiences</b>: Before joining ISB, I worked as a Data Scientist at HCLTech, developing machine-learning and analytics solutions for Chevron and ExxonMobil. My work focused on building and optimizing data ingestion pipelines and developing predictive models for asset management and maintenance analytics. This experience deepened my interest in how data-driven technologies shape organizations and people, ultimately motivating my transition into Information Systems and computational social science research.
 
