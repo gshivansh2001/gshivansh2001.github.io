@@ -2,7 +2,7 @@
 layout: page
 permalink: /research/
 title: Research
-description: My research examines how information design and governance choices on digital platforms shape user behavior, market outcomes, and perceptions. I focus on settings where platform interventions such as disclosure policies, moderation rules, and algorithmic design generate behavioral responses. Using large-scale observational data, I combine computational methods with econometric approaches to study how different participants including creators, consumers, and market actors adapt to changes in platform environments. More broadly, my work aims to understand how micro-level behavioral responses to platform design aggregate into broader organizational and market-level consequences.
+description: My research examines how digital platforms’ design and governance through disclosure policies, moderation rules, and recommendation algorithms shape user behavior, market dynamics, and perceptions. I use large-scale platform data and computational econometric methods to analyze how participants – from content creators to consumers, buyers, and sellers – respond to platform policy and design changes. More broadly, I aim to understand how these micro-level behavioral responses aggregate to influence organizational and market-level outcomes.
 nav: true
 nav_order: 1
 ---
