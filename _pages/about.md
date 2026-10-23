@@ -24,15 +24,12 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-<p>Hi! I am Shivansh, I'm working with <a href="https://www.isb.edu/faculty-and-research/faculty-directory/vasundharasharma">Prof. Vasundhara Sharma</a> in the Srini Raju Centre for IT and the Networked Economy (SRITNE) within the Information Systems Department.</p>
+<p>Hi! I am Shivansh, a pre-doctoral researcher working with <a href="https://www.isb.edu/faculty-and-research/faculty-directory/vasundharasharma">Prof. Vasundhara Sharma</a> at the Srini Raju Centre for IT and the Networked Economy (SRITNE), Indian School of Business.</p>
 
-My research examines how information design and governance choices on digital platforms influence user behavior and market outcomes. I use large-scale observational data to analyze how participants ranging from content creators to consumers and buyers to sellers respond when platforms change their policies or information features through moderation rules or recommendation algorithms. Methodologically, I combine computational analysis with econometric methods to estimate the effects of these changes.
-
-I am interested in understanding how information structures, platform design and governance shape user behavior, incentives, and perceptions, and how these micro-level responses aggregate to influence organizational and market outcomes. 
-To learn more, please visit my <a href="https://gshivansh2001.github.io/research/">Research</a> page.
+I am broadly interested in the rules that shape life on digital platforms, and in why well-meant rules so often play out differently than intended. More on what I am working on is on my <a href="{{ '/research/' | relative_url }}">Research</a> page.
 
 <b>Prior Experiences</b>: Before joining ISB, I worked as a Data Scientist at HCLTech, developing machine-learning and analytics solutions for Chevron and ExxonMobil. My work focused on building and optimizing data ingestion pipelines and developing predictive models for asset management and maintenance analytics. This experience deepened my interest in how data-driven technologies shape organizations and people, ultimately motivating my transition into Information Systems and computational social science research.
 
-<b>Looking Ahead:</b> I am exploring PhD opportunities in Information Systems and related fields. Please feel free to reach out!
+<b>Looking Ahead:</b> I am exploring PhD opportunities in Information Systems/Sciences and related fields. Please feel free to reach out!
 
 
