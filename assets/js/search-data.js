@@ -11,7 +11,7 @@ ninja.data = [{
     },
   },{id: "nav-research",
           title: "Research",
-          description: "I am interested in how creators and users respond to the rules that govern digital platforms, such as content moderation, disclosure mandates, and privacy protections, and why well-intended policies often produce outcomes their designers did not anticipate. In my work so far, I have used large-scale platform data, LLM-based measurement validated against human annotation, and causal inference methods, along with field and survey experiments.",
+          description: "I am interested in examining digital platforms and AI systems using large-scale behavioral data, computational methods, causal inference, and experiments.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/research/";
