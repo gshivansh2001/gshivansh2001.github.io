@@ -37,7 +37,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/books/";
           },
-        },{id: "post-replicating-quot-male-backlash-and-female-guilt-quot-women-39-s-employment-and-ipv-in-urban-india",
+        },{id: "post-what-honestdid-is-and-is-not-making-sense-of-m-0-0-5-1-2",
+        
+          title: "What HonestDiD Is (and Is Not): Making Sense of M = 0, 0.5,...",
+        
+        description: "An early researcher&#39;s account of misreading, re-reading, and finally understanding Rambachan and Roth&#39;s approach to sensitivity analysis for parallel trends",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/honestdid/";
+          
+        },
+      },{id: "post-replicating-quot-male-backlash-and-female-guilt-quot-women-39-s-employment-and-ipv-in-urban-india",
         
           title: "Replicating &quot;Male Backlash and Female Guilt&quot; — Women&#39;s Employment and IPV in Urban...",
         
