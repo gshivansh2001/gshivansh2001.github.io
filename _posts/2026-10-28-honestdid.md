@@ -130,20 +130,24 @@ One more thing I didn't expect at first: under $\Delta^{RM}$, the intervals for 
 
 HonestDiD only needs the event-study coefficients and their variance-covariance matrix. So the workflow is to run the event study, check the order of the coefficients, and then call `honestdid`. With event time running from −4 to 3 and −1 as the omitted reference period:
 
+Event study (pre1 = event time -1 is the omitted reference)
 ```stata
-* Event study (pre1 = event time -1 is the omitted reference)
 reghdfe outcome pre4 pre3 pre2 post0 post1 post2 post3 covariates, absorb(unit time) cluster(unit)
-
-* Check the position of each coefficient in e(b)
+```
+Check the position of each coefficient in e(b)
+```stata
 matrix list e(b)
-
-* Relative magnitudes (default), Mbar from 0.5 to 2
-honestdid, pre(1/3) post(4/7) mvec(0.5(0.5)2) coefplot
-
-* Smoothness restriction, M in outcome units
-honestdid, pre(1/3) post(4/7) mvec(0(0.01)0.05) delta(sd) coefplot
 ```
 
+Relative magnitudes (default), Mbar from 0.5 to 2
+```stata
+honestdid, pre(1/3) post(4/7) mvec(0.5(0.5)2) coefplot
+```
+
+Smoothness restriction, M in outcome units
+```stata
+honestdid, pre(1/3) post(4/7) mvec(0(0.01)0.05) delta(sd) coefplot
+```
 The `pre()` and `post()` options refer to **positions in `e(b)`**, not event times. That's why the event-time dummies should come first in the regression and the covariates after them. I'd check `matrix list e(b)` every time, because if the indices are off, Stata won't complain. You'll just get a sensitivity analysis of the wrong coefficients.
 
 If you want the average post-treatment effect instead of the first-period one, you can pass a weighting vector through `l_vec` (for four post-periods, equal weights of 0.25).
