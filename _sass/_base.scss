@@ -4,9 +4,18 @@
 
 // Typography
 
+html {
+  font-size: 106.25%; // 17px base (default is 16px); every rem size on the site scales with this
+}
+
 body {
   font-family: 'IBM Plex Sans', sans-serif;
+  font-weight: 400; // theme default is 300, which renders thin and small
 }
+
+// body {
+//   font-family: 'IBM Plex Sans', sans-serif;
+// }
 
 p,
 h1,
