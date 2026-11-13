@@ -2,7 +2,7 @@
 layout: page
 permalink: /research/
 title: Research
-description: I am interested in examining digital platforms and AI systems using large-scale behavioral data, computational methods, causal inference, and experiments.
+description: 
 nav: true
 nav_order: 1
 ---
